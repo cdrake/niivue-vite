@@ -1,6 +1,6 @@
 import './style.css'
 import {Niivue} from '@niivue/niivue'
-import MyWorker from "./worker?worker&inline";
+import MyWorker from "./worker?worker";
 import { v4 as uuidv4 } from "uuid";
 
 function processImage(worker) {
