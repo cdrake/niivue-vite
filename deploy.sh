@@ -9,7 +9,7 @@ npm run build
 # navigate into the build output directory
 cd dist
 
-git checkout -b main
+git checkout main
 git add -A
 git commit -m 'deploy'
 
