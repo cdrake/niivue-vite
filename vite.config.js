@@ -1,5 +1,8 @@
+import { defineConfig } from "vite";
+
 // vite.config.js
-export default {
-  // config options
-  "base": '/niivue-vite/'
-}
+export default defineConfig({
+  base: '/niivue-vite/',
+  assetsInclude: ['**/*.wasm'],
+  assetsInlineLimit: '2048' // 2kb
+})
